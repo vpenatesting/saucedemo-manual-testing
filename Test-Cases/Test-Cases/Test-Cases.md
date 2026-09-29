@@ -30,9 +30,9 @@
 * User is redirected to the Products/Inventory page.
 
 **Actual Result:**
-*To be completed during test execution.*
+User successfully logged in and was redirected to the Products page.
 
-**Status:** Not Executed
+**Status:** Pass
 
 ---
 
