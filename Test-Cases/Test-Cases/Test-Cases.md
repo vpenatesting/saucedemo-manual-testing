@@ -64,7 +64,7 @@ User successfully logged in and was redirected to the Products page.
 * User remains on the login page.
 
 **Actual Result:**
-Login was unsuccessful. An error message was displayed and the user remained on the login page.
+Login was unsuccessful. The application displayed an error message stating that the username and password do not match an active account. The user remained on the login page.
 
 **Status:** Pass
 
@@ -98,9 +98,9 @@ Login was unsuccessful. An error message was displayed and the user remained on 
 * User remains on the login page.
 
 **Actual Result:**
-*To be completed during test execution.*
+Login was unsuccessful. The application displayed an error message stating that the username and password do not match an active account. The user remained on the login page.
 
-**Status:** Not Executed
+**Status:** Pass
 
 ---
 
@@ -126,9 +126,9 @@ Login was unsuccessful. An error message was displayed and the user remained on 
 * A validation/error message is displayed indicating that a username is required.
 
 **Actual Result:**
-*To be completed during test execution.*
+Login was unsuccessful. The application displayed an error message stating that the username is required. The user remained on the login page.
 
-**Status:** Not Executed
+**Status:** Pass
 
 ---
 
@@ -155,9 +155,9 @@ Login was unsuccessful. An error message was displayed and the user remained on 
 * Each product contains the expected product information.
 
 **Actual Result:**
-*To be completed during test execution.*
+Products were displayed on the Products page with product names, images, prices, and Add to cart buttons.
 
-**Status:** Not Executed
+**Status:** Pass
 
 ---
 
@@ -186,9 +186,9 @@ Login was unsuccessful. An error message was displayed and the user remained on 
 * Add-to-cart functionality is available.
 
 **Actual Result:**
-*To be completed during test execution.*
+Products were sorted alphabetically from A to Z after selecting Name (A to Z).
 
-**Status:** Not Executed
+**Status:** Pass
 
 ---
 
@@ -216,9 +216,9 @@ Login was unsuccessful. An error message was displayed and the user remained on 
 * Products are displayed in alphabetical order from A to Z.
 
 **Actual Result:**
-*To be completed during test execution.*
+Products were sorted alphabetically from A to Z after selecting Name (A to Z).
 
-**Status:** Not Executed
+**Status:** Pass
 
 ---
 
@@ -244,9 +244,9 @@ Login was unsuccessful. An error message was displayed and the user remained on 
 * Products are displayed from the lowest price to the highest price.
 
 **Actual Result:**
-*To be completed during test execution.*
+Products were sorted from the lowest price to the highest price after selecting Price (low to high).
 
-**Status:** Not Executed
+**Status:** Pass
 
 ---
 
@@ -276,9 +276,9 @@ Login was unsuccessful. An error message was displayed and the user remained on 
 * Cart item count is updated.
 
 **Actual Result:**
-*To be completed during test execution.*
+Sauce Labs Backpack was successfully added to the cart. The cart count updated to 1, and the cart displayed the correct product name and price.
 
-**Status:** Not Executed
+**Status:** Pass
 
 ---
 
@@ -306,6 +306,6 @@ Login was unsuccessful. An error message was displayed and the user remained on 
 * Cart item count is updated appropriately.
 
 **Actual Result:**
-*To be completed during test execution.*
+The Sauce Labs Backpack was successfully removed from the cart. The cart was updated and the product was no longer displayed.
 
-**Status:** Not Executed
+**Status:** Pass
