@@ -64,9 +64,9 @@ User successfully logged in and was redirected to the Products page.
 * User remains on the login page.
 
 **Actual Result:**
-*To be completed during test execution.*
+Login was unsuccessful. An error message was displayed and the user remained on the login page.
 
-**Status:** Not Executed
+**Status:** Pass
 
 ---
 
